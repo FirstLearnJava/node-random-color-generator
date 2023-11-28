@@ -1,5 +1,13 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  chalk:
+    specifier: ^5.3.0
+    version: 5.3.0
+  randomcolor:
+    specifier: ^0.5.3
+    version: 0.5.3
+
 devDependencies:
   eslint-config-upleveled:
     specifier: ^7.3.3
@@ -829,6 +837,11 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
     dev: true
+
+  /chalk@5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
 
   /ci-info@3.9.0:
     resolution: {integrity: sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==}
@@ -2386,6 +2399,10 @@ packages:
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
+
+  /randomcolor@0.5.3:
+    resolution: {integrity: sha512-EL8//FSdoTGa9tSSb7d2AWpabqTyA07UgYPVMHuB68VqbDwiL+v37DA+0a9um68rIRHjkpgKliQqbiEZgy7RdA==}
+    dev: false
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
